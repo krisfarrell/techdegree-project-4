@@ -1,9 +1,29 @@
 // COLOR
-$grey: #777;
-$teal: #58e1c1;
-$salmon: #e4757a;
-$limegreen: #63cc82;
-$orange: #fd7856;
+$white: #fff;
+$dark-grey: #777;
+$light-grey: #ccc;
+$color-primary: #58e1c1;
+
+$default: #51ddfc; // Teal
+$error: #e4757a; // Red/Salmon
+$info: #927bc1; // Purple
+$success: #63cc82; // Limegreen
+$warning: #fd7856; // Orange
+
+$default-light: lighten($default, 50%);
+$error-light: lighten($error, 50%);
+$info-light: lighten($info, 50%);
+$success-light: lighten($success, 50%);
+$warning-light: lighten($warning, 50%);
 
 // MEDIA QUERIES
-$breakpoint: 768px;
+$break-sm: 768px;
+
+//LAYOUT
+$gutter-sm: 10px;
+$max-w: 100%;
+$max-h: 100%;
+
+
+//TYPOGRAPHY
+$font-main: 'Lato', sans-serif;

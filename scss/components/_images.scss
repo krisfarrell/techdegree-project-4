@@ -1,0 +1,18 @@
+.img-avatar {
+  @include center;
+  margin-top: $gutter-sm;
+  max-width: $max-w;
+  max-height: $max-h;
+}
+
+.img-frame {
+  @include center;
+  margin-top: $gutter-sm;
+  max-width: $max-w;
+  padding: 13px;
+  border: 1px solid $light-grey;
+}
+
+.img-logo {
+  @include center;
+}

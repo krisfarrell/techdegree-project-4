@@ -1,0 +1,16 @@
+.form {
+  flex-basis: 100%;
+}
+
+.input{
+  display: block;
+  width: 94%;
+  margin: $gutter-sm auto 0;
+  border: none;
+  padding: $gutter-sm;
+  border-bottom: 5px solid $color-primary;
+}
+
+.hidden {
+  @include hidden;
+}

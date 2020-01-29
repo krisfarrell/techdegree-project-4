@@ -1,0 +1,50 @@
+.btn {
+    margin-top: 15px;
+    width: max-w;
+    color: $white;
+    border: none;
+    padding: $gutter-sm 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.default {
+    background-color: $default;
+
+    &:hover {
+        background-color: $default-light;
+    }
+
+}
+
+.error {
+    background-color: $error;
+
+    &:hover {
+        background-color: $error-light;
+    }
+}
+
+.info {
+    background-color: $info;
+
+    &:hover {
+        background-color: $info-light;
+    }
+}
+
+.success {
+    background-color: $success;
+
+    &:hover {
+        background-color: $success-light;
+    }
+}
+
+.warning {
+    background-color: $warning;
+
+&:hover {
+    background-color: $warning-light;
+}
+}
